@@ -1,0 +1,56 @@
+/* General player styling */
+.video-js {
+    width: 100% ;
+  height: 100% ; 
+    background-color: black;
+    border-radius: 1rem 1rem 0 0 !important; /* Apply border-radius to the container */
+    overflow: hidden; 
+    position: relative;
+    display: block;
+    /* Ensure the video area is visible */
+  }
+
+/* Customize control bar */
+.vjs-control-bar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for control bar */
+}
+
+/* Customize play button */
+.vjs-big-play-button {
+    background-color: rgba(255, 255, 255, 0.7); /* Light background */
+    color: #000; /* Black play icon */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: -40px; /* Centering */
+    margin-top: -40px;  /* Centering */
+}
+
+/* Change the color of the progress bar */
+.vjs-play-progress {
+    background-color: #e74c3c !important; /* Red for played progress */
+}
+
+.vjs-load-progress {
+    background-color: rgba(255, 255, 255, 0.5); /* Light color for loaded progress */
+}
+
+/* Fullscreen button */
+.vjs-fullscreen-control {
+    color: #fff; /* White fullscreen icon */
+}
+
+/* Time display */
+.vjs-current-time, .vjs-duration {
+    color: #fff; /* White text for time */
+}
+
+/* Volume control */
+.vjs-volume-level {
+    background-color: #e74c3c !important; /* Red volume bar */
+}
+
+/* Customizing tooltips */
+.vjs-mouse-display {
+    background-color: #e74c3c !important; /* Tooltip color */
+}

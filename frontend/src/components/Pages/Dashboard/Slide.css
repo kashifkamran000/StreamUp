@@ -1,0 +1,16 @@
+/* Add margin to each slide */
+.slick-slide {
+    margin: 0 30px; /* Adjust the horizontal spacing between slides */
+  }
+  
+  /* Ensure the container doesn’t cut off slides and handles overflow */
+  .slider-container {
+    overflow: hidden; /* Prevent horizontal overflow */
+  }
+  
+  /* Optional: Ensure the slider itself does not have unexpected styling */
+  .slick-track {
+    display: flex; /* Make sure slides are in a row */
+  }
+
+  
